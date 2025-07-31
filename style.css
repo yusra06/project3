@@ -1,0 +1,487 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 30px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img {
+    height: 42px;
+    margin-left: 150px;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #56465d;
+    font-family: #FFFFFF;
+    margin-left: 300px;
+    font-weight: bold;
+    
+}
+.nav-bar a{
+    text-decoration:none;
+    color: #56465d;
+}
+.nav-bar button {
+    width: 150px;
+    height: 40px;
+    background-color: #7F71A1;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.nav-bar button:hover {
+    background-color: #56465d;
+}
+
+.b-img {
+    background-image: url('images/img-decor-01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.over-text {
+    text-align: center;
+    color: #E3DFED;
+    padding: 60px;
+    margin-bottom: 500px;
+}
+
+.over-text h1 {
+    font-size: 82px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.over-text p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(141, 129, 172);
+    font-family: "Source Sans Pro", sans-serif;
+    Font-size: 28px;
+    font-weight: 400px;
+    Line-height: 28.6px;
+}
+
+.over-text h1 {
+    text-align: center;
+    font-size: 82px;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 91.84px;
+}
+
+.over-text small {
+    font-size: 16px;
+    color: rgb(73, 70, 84);
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+}
+
+.end-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 60px 0; */
+
+}
+
+.end-button button {
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #8C7AA9;
+    color: white;
+    width: 450px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.end-button button:hover {
+    background-color: #56465d;
+}
+
+#s-2 {
+    margin-bottom: 80px;
+}
+
+.s2-text .h-1 {
+    text-align: center;
+    font-size: 54px;
+    color: #635C73;
+    margin-top: 30px;
+    Font-weight: 700;
+    line-height: 61.992px;
+}
+
+.s2-text .h-2 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 100px;
+    color: #635C73;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    line-height: 32.0072px;
+}
+
+.mini-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#s-3 {
+    padding: 20px;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: auto auto;
+    background-color: #F4F4F4;
+    margin: 0;
+}
+
+.s3-Head {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #8D81AC;
+    background-color: #F4F4F4;
+    padding: 40px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.e-img {
+    width: 80px;
+}
+
+.feature-text h3 {
+    margin: 0;
+    color: #56465d;
+    font-size: 20px;
+    font-weight: 700; 
+}
+
+.feature-text p {
+    margin: 10px 0 0 0;
+    color: #888;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#about-fork {
+    background-image: url('images/backgroundimg.jpg');
+    color: #FFFFFF;
+}
+
+.af-head {
+    padding: 20px;
+    text-align: center;
+    background-image: url('images/backgroundimg.jpg');
+    color: white;
+    font-size: 23px;
+    background: cover;
+}
+
+.fork-content h5 {
+
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+
+#af-head {
+    padding: 20px;
+    text-align: center;
+    background-image: url('images/backgroundimg.jpg');
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    background-size: cover;
+    margin: 0;
+}
+
+#about-fork {
+    background-image: url('images/backgroundimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 60px 100px;
+    gap: 40px;
+    background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+.fork-cont {
+    width: 300px;
+    text-align: center;
+}
+
+.fork-cont img {
+    max-width: 100px;
+    margin-bottom: 20px;
+    /* height: 70px;
+    width: 700px; */
+}
+
+.fork-cont h5 {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#pricing {
+    background-image: url('images/bg2.jpg');
+    padding: 80px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.pricing-title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+    font-weight: 800;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.pricing-card {
+    background: rgba(250, 248, 248, 0.05);
+    padding: 40px 30px;
+    width: 220px;
+    height: 380px;
+
+}
+
+.pricing-card h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #bdbdbd;
+    opacity: 1.2;
+}
+
+.pricing-card p {
+    color: #cfc7dc;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.pricing-card hr {
+    border: none;
+    margin: 20px 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    color: #e5e1ec;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.pricing-card button {
+    padding: 12px 35px;
+    border: none;
+    background-color: #766978;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.pricing-card button:hover {
+    background-color: #56465d;
+}
+
+.highlighted {
+    background: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    width: 190;
+}
+
+.price-card .highlighted {
+    width: 190px;
+    gap: 20px;
+}
+
+#subscribe {
+    background-color: #F4F4F4;
+    height: 150px;
+
+}
+
+.sub {
+    display: flex;
+}
+
+.sub h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #635C73;
+    padding-left: 200px;
+    line-height: 42px;
+    font-weight: 700px
+}
+
+.sub input {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.sub button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8D81AC;
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.footer-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 80px;
+    background-color: #fff;
+    color: #333;
+}
+
+.footer-cont .info img {
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.footer-cont .info p {
+    font-size: 14px;
+    color: #848E97;
+    line-height: 21px;
+}
+
+.navigation h3,
+.contact h3,
+.information h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #635C73;
+    margin-bottom: 10px;
+}
+
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    font-weight: 600;
+    color: #8D81AC;
+    margin-bottom: 6px;
+}
+
+.contact .phone {
+    font-size: 22px;
+    font-weight: 800;
+    color: #2D2D2D;
+    margin-bottom: 6px;
+}
+
+.contact .hours {
+    font-size: 12px;
+    font-weight: 700;
+    color: #5E5C5C;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    line-height: 16px;
+}
+
+.contact h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2D2D2D;
+    margin-bottom: 4px;
+}
+
+.contact p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    max-width: 240px;
+}
+
+.information p {
+    font-size: 14px;
+    color: #848E97;
+    line-height: 23px;
+    max-width: 250px;
+    font-weight: 400px;
+}
+.contact p{
+    color:#909297;
+}
+
