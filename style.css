@@ -116,6 +116,8 @@ body {
     width: 450px;
     font-size: 18px;
     font-weight: 700;
+    position: relative;
+    bottom:29px;
 }
 
 .end-button button:hover {
